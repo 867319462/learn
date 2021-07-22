@@ -1,0 +1,171 @@
+2021-07-18 00:04:53.026 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 00:04:53.029 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 00:04:58.697 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 00:05:06.683 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 00:05:06.732 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 00:05:06.758 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 00:05:06.765 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 00:05:09.296 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-07-18 00:05:09.296 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2021-07-18 00:05:09.296 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2021-07-18 00:05:09.298 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2c679517
+2021-07-18 00:05:09.298 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@251e1889
+2021-07-18 00:05:09.298 [RMI TCP Connection(5)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-07-18 00:10:37.686 [main] DEBUG o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe
+2021-07-18 00:10:46.089 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 00:10:50.717 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 00:10:50.822 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 00:10:50.868 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 00:10:50.896 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 00:10:53.351 [SpringApplicationShutdownHook] DEBUG o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe, started on Sun Jul 18 00:10:37 CST 2021
+2021-07-18 00:15:03.582 [main] DEBUG o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe
+2021-07-18 00:15:12.290 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 00:15:17.067 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 00:15:17.174 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 00:15:17.233 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 00:15:17.257 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 00:15:19.473 [SpringApplicationShutdownHook] DEBUG o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe, started on Sun Jul 18 00:15:03 CST 2021
+2021-07-18 00:15:53.254 [main] DEBUG o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe
+2021-07-18 00:16:01.481 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 00:16:06.114 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 00:16:06.223 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 00:16:06.279 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 00:16:06.302 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 00:16:08.607 [SpringApplicationShutdownHook] DEBUG o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe, started on Sun Jul 18 00:15:53 CST 2021
+2021-07-18 00:16:48.620 [main] DEBUG o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe
+2021-07-18 00:16:56.771 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 00:17:01.418 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 00:17:01.527 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 00:17:01.584 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 00:17:01.608 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 00:17:03.791 [SpringApplicationShutdownHook] DEBUG o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7e38a7fe, started on Sun Jul 18 00:16:48 CST 2021
+2021-07-18 00:27:16.836 [http-nio-8088-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-07-18 00:27:16.876 [http-nio-8088-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-07-18 00:27:49.193 [http-nio-8088-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-07-18 00:27:49.374 [http-nio-8088-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-07-18 00:27:49.377 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/doc.html", parameters={}
+2021-07-18 00:27:49.379 [http-nio-8088-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-07-18 00:27:49.394 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.443 [http-nio-8088-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.444 [http-nio-8088-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.444 [http-nio-8088-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/css/chunk-vendors.7c767628.css", parameters={}
+2021-07-18 00:27:49.444 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/css/app.ff80f646.css", parameters={}
+2021-07-18 00:27:49.445 [http-nio-8088-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.445 [http-nio-8088-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.456 [http-nio-8088-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.456 [http-nio-8088-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/app.0f2f48b5.js", parameters={}
+2021-07-18 00:27:49.458 [http-nio-8088-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.462 [http-nio-8088-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.463 [http-nio-8088-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-vendors.9a4add2b.js", parameters={}
+2021-07-18 00:27:49.465 [http-nio-8088-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.467 [http-nio-8088-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.471 [http-nio-8088-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.471 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.472 [http-nio-8088-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/css/chunk-62d2fe18.8274cf04.css", parameters={}
+2021-07-18 00:27:49.472 [http-nio-8088-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.473 [http-nio-8088-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-0c58d94d.d009b662.js", parameters={}
+2021-07-18 00:27:49.473 [http-nio-8088-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.474 [http-nio-8088-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.477 [http-nio-8088-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.480 [http-nio-8088-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.481 [http-nio-8088-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-0fd67716.d57e2c41.js", parameters={}
+2021-07-18 00:27:49.481 [http-nio-8088-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.483 [http-nio-8088-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.483 [http-nio-8088-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.483 [http-nio-8088-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.484 [http-nio-8088-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.484 [http-nio-8088-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-214218f0.92c7a521.js", parameters={}
+2021-07-18 00:27:49.485 [http-nio-8088-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.487 [http-nio-8088-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.492 [http-nio-8088-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.493 [http-nio-8088-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-2d0af44e.c09671a4.js", parameters={}
+2021-07-18 00:27:49.493 [http-nio-8088-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.494 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-2d0bd799.5bb1a14e.js", parameters={}
+2021-07-18 00:27:49.494 [http-nio-8088-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.496 [http-nio-8088-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.497 [http-nio-8088-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.497 [http-nio-8088-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.497 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-2d0da532.a47fb5c8.js", parameters={}
+2021-07-18 00:27:49.497 [http-nio-8088-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-2d0d0b98.4693c46e.js", parameters={}
+2021-07-18 00:27:49.498 [http-nio-8088-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.498 [http-nio-8088-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.498 [http-nio-8088-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.501 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.503 [http-nio-8088-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.504 [http-nio-8088-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.504 [http-nio-8088-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-2d22269d.fc57b306.js", parameters={}
+2021-07-18 00:27:49.504 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.505 [http-nio-8088-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.506 [http-nio-8088-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.510 [http-nio-8088-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-3b888a65.8737ce4f.js", parameters={}
+2021-07-18 00:27:49.510 [http-nio-8088-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.511 [http-nio-8088-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.511 [http-nio-8088-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.511 [http-nio-8088-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.512 [http-nio-8088-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-589faee0.1cf66f6d.js", parameters={}
+2021-07-18 00:27:49.512 [http-nio-8088-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-62d2fe18.64c34be0.js", parameters={}
+2021-07-18 00:27:49.513 [http-nio-8088-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.513 [http-nio-8088-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.514 [http-nio-8088-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.515 [http-nio-8088-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.517 [http-nio-8088-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.520 [http-nio-8088-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.521 [http-nio-8088-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-735c675c.be4e3cfe.js", parameters={}
+2021-07-18 00:27:49.522 [http-nio-8088-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.526 [http-nio-8088-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.527 [http-nio-8088-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.529 [http-nio-8088-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/js/chunk-adb9e944.e09637fc.js", parameters={}
+2021-07-18 00:27:49.530 [http-nio-8088-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+2021-07-18 00:27:49.533 [http-nio-8088-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2021-07-18 00:27:49.533 [http-nio-8088-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:49.967 [http-nio-8088-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2021-07-18 00:27:49.968 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/swagger-resources", parameters={}
+2021-07-18 00:27:49.968 [http-nio-8088-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2021-07-18 00:27:49.983 [http-nio-8088-exec-6] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+2021-07-18 00:27:49.984 [http-nio-8088-exec-6] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@b8f290d, springfox.documentation.swagger.web.Sw (truncated)...]
+2021-07-18 00:27:49.993 [http-nio-8088-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 00:27:50.002 [http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2021-07-18 00:27:50.003 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v2/api-docs?group=1.X", parameters={masked}
+2021-07-18 00:27:50.003 [http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2021-07-18 00:27:50.084 [http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/hal+json]
+2021-07-18 00:27:50.085 [http-nio-8088-exec-7] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@776cc29e]
+2021-07-18 00:27:50.087 [http-nio-8088-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2021-07-18 09:00:51.083 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 09:00:51.083 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 09:00:54.552 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 09:00:59.100 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 09:00:59.152 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 09:00:59.179 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 09:00:59.188 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 09:01:00.407 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2021-07-18 09:01:00.407 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2021-07-18 09:01:00.407 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2021-07-18 09:01:00.410 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@20bd5d8e
+2021-07-18 09:01:00.410 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@247628c3
+2021-07-18 09:01:00.410 [RMI TCP Connection(1)-192.168.23.1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-07-18 09:03:32.688 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 09:03:32.688 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 09:03:34.956 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 09:03:39.495 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 09:03:39.513 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 09:03:39.530 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 09:03:39.537 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 09:03:43.946 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 09:03:43.946 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 09:03:45.265 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 09:03:48.375 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 09:03:48.395 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 09:03:48.417 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 09:03:48.423 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 10:01:48.990 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 10:01:48.990 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 10:01:50.356 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2021-07-18 10:01:53.333 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-07-18 10:01:53.354 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2021-07-18 10:01:53.374 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2021-07-18 10:01:53.386 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-07-18 10:07:38.387 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 10:07:38.387 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 10:41:13.748 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-07-18 10:41:13.749 [restartedMain] DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+2021-07-18 10:41:17.378 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'

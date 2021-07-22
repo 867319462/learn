@@ -1,0 +1,61 @@
+spring:
+  # 开发工具
+  devtools:
+    # 不添加默认属性
+    add-properties: false
+    restart:
+      # 设置开启热部署
+      enabled: true
+      # 重启目录
+      additional-paths: src/main/java
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/learn?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=PRC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 初始化时建立物理连接的个数
+      initial-size: 5
+      # 最小连接池数量
+      min-idle: 5
+      # 最大连接池数量 maxIdle已经不再使用
+      max-active: 20
+      # 获取连接时最大等待时间，单位毫秒
+      max-wait: 60000
+      # 申请连接的时候检测，如果空闲时间大于 time-between-eviction-runs-millis，执行 validation-query 检测连接是否有效
+      test-while-idle: true
+      # 既作为检测的间隔时间又作为 test-while-idle 执行的依据
+      time-between-eviction-runs-millis: 60000
+      # 销毁线程时检测当前连接的最后活动时间和当前时间差大于该值时，关闭当前连接
+      min-evictable-idle-time-millis: 30000
+      # 用来检测连接是否有效的 sql 必须是一个查询语句，mysql 中为 select 'x'
+#      validation-query: x
+      # 申请连接时会执行 validation-query 检测连接是否有效,开启会降低性能,默认为 true
+      test-on-borrow: false
+      # 归还连接时会执行 validation-query 检测连接是否有效,开启会降低性能,默认为 true
+      test-on-return: false
+      # 是否缓存 prepared-statement
+      pool-prepared-statements: true
+      # 缓存连接数
+      max-pool-prepared-statement-per-connection-size: 20
+      # 配置扩展插件
+      filters: stat,wall
+      # 通过 connect-properties 属性来打开 mergeSql 功能；慢SQL记录
+      connect-properties:
+        druid.stat.mergeSql: true
+        druid.stat.slowSqlMillis: 500
+      # 合并多个 DruidDataSource 的监控数据
+      use-global-data-source-stat: true
+
+# mybatis-plus
+mybatis-plus:
+#  configuration:
+#    # 开启日志
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: mapper/*Mapper.xml
+logging:
+  level:
+    web: DEBUG
+  config: classpath:logback-spring.xml
