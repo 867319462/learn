@@ -31,7 +31,7 @@ spring:
       # 销毁线程时检测当前连接的最后活动时间和当前时间差大于该值时，关闭当前连接
       min-evictable-idle-time-millis: 30000
       # 用来检测连接是否有效的 sql 必须是一个查询语句，mysql 中为 select 'x'
-#      validation-query: x
+      #      validation-query: x
       # 申请连接时会执行 validation-query 检测连接是否有效,开启会降低性能,默认为 true
       test-on-borrow: false
       # 归还连接时会执行 validation-query 检测连接是否有效,开启会降低性能,默认为 true
@@ -51,14 +51,23 @@ spring:
 
 # mybatis-plus
 mybatis-plus:
-#  configuration:
-#    # 开启日志
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  configuration:
+    # 开启日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: mapper/*Mapper.xml
 logging:
   level:
     web: DEBUG
   config: classpath:logback-spring.xml
+
+server:
+  ssl:
+    enabled: true
+    key-store: classpath:my_https.keystore
+    key-store-type: JKS
+    key-alias: my_https
+    key-password: 123456
+    key-store-password: 123456
 
 # token
 token:

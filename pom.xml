@@ -22,6 +22,10 @@
         <mybatis-plus.version>3.4.3</mybatis-plus.version>
         <mp-generator.version>3.4.1</mp-generator.version>
         <freemarker.version>2.3.31</freemarker.version>
+        <druid.version>1.2.6</druid.version>
+
+        <!-- token -->
+        <jwt.version>3.18.1</jwt.version>
 
         <!-- 工具 -->
         <hutool.version>5.7.5</hutool.version>
@@ -37,6 +41,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- 验证器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
         <!-- mysql 连接数据库 -->
@@ -71,7 +81,14 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.2.6</version>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- token -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${jwt.version}</version>
         </dependency>
 
         <!-- 代码工具 -->
@@ -107,6 +124,13 @@
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
             <version>${knife4j.version}</version>
+        </dependency>
+
+        <!-- 配置处理器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- 测试组件 -->
