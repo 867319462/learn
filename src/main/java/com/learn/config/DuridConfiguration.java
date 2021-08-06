@@ -22,9 +22,9 @@ public class DuridConfiguration {
         // IP黑名单 (存在共同时，deny优先于allow)
         registrationBean.addInitParameter("deny", "");
         // 用户名
-        registrationBean.addInitParameter("loginUsername", "root");
+        registrationBean.addInitParameter("loginUsername", "admin");
         // 密码
-        registrationBean.addInitParameter("loginPassword", "1234");
+        registrationBean.addInitParameter("loginPassword", "123456");
         // 是否开启重置
         registrationBean.addInitParameter("resetEnable", "false");
         return registrationBean;

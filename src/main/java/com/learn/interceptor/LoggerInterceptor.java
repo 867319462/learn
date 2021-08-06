@@ -1,6 +1,6 @@
 package com.learn.interceptor;
 
-import cn.hutool.core.lang.UUID;
+import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
@@ -26,25 +26,52 @@ public class LoggerInterceptor implements HandlerInterceptor {
      */
     private static final String THREAD_ID = "THREAD_ID";
 
+    /**
+     * 预处理
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         log.debug("preHandle running ...");
-        //使用UUID生成唯一编号
-        String threadId = UUID.randomUUID().toString().replaceAll("-", "");
-        //判断MDC(log4j中的上下文对象) 中是否有该threadId
+        // 使用 UUID 生成唯一编号
+        String threadId = IdUtil.randomUUID();
+        // 判断 MDC(log4j中的上下文对象) 中是否有该 threadId
         if (StrUtil.isBlank(MDC.get(THREAD_ID))) {
-            //如果没有，添加
+            // 如果没有，添加
             MDC.put(THREAD_ID, threadId);
         }
         //永远返回true
         return true;
     }
 
+    /**
+     * 后处理
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param modelAndView
+     * @throws Exception
+     */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         MDC.remove(THREAD_ID);
     }
 
+    /**
+     * 完成后
+     *
+     * @param request
+     * @param response
+     * @param handler
+     * @param ex
+     * @throws Exception
+     */
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
